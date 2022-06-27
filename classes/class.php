@@ -1,5 +1,5 @@
 <?php
-class Film {
+class Movie {
     public $title;
     public $director;
     public $year;
