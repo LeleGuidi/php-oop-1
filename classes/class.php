@@ -7,12 +7,13 @@ class Movie {
     public $oscar;
     public $price;
 
-    function __construct($_title, $_director, $_oscar, $_price)
+    function __construct($_title, $_director, $_oscar, $_price, $_year)
     {
         $this->title = $_title;
         $this->director = $_director;
         $this->oscar = $_oscar;
         $this->price = $_price;
+        $this->year = $_year;
     }
 
     public function getDiscount() {
